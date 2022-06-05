@@ -7,3 +7,9 @@
 @import url(../blocks/photo/photo-galery.css);
 @import url(../blocks/reviews/reviews.css);
 @import url(../blocks/share/share.css);
+@import url(../blocks/social-networks/social-networks.css);
+@import url(../blocks/social-networks/social-networks__image.css);
+@import url(../blocks/social-networks/social-networks__icon-conteiner.css);
+@import url(../blocks/social-networks/social-networks__icon.css);
+@import url(../blocks/social-networks/social-networks__title.css);
+

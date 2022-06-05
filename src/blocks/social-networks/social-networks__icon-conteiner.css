@@ -1,0 +1,7 @@
+.social-networks__icon-conteiner {
+    display: flex;
+    gap: 8px;
+    width: 175px;
+    margin: 0 auto 0 584px;
+}
+
