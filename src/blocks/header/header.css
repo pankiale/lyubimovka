@@ -26,6 +26,8 @@
     gap: 44px;
     margin: 11px 0 0 43px;
     padding: 0 39px 11px 0;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 .link-container:last-of-type {
@@ -41,15 +43,17 @@
 .link-container_donate {
     margin-left: 23px;
     padding-right: 20px;
+    font-size: 14px;
+    line-height: 17px;
 }
 
-.link-container_donate-icon {
+.link-container__donate-icon {
     background-image: url("../../images/icons/plus.svg");
     width: 25px;
     height: 25px;
 }
 
-.link-container_donate-container {
+.link-container__donate-container {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -59,7 +63,12 @@
     text-decoration: none;
     color: inherit;
     font-family: inherit;
-    font-size: 16px;
-    line-height: 22px;
+    font-size: inherit;
+    line-height: inherit;
     white-space: nowrap;
+}
+
+.link:hover {
+    background-color: #242424;
+    color: #ECEBE8;
 }
