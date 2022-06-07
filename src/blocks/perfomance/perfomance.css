@@ -53,13 +53,18 @@
   border: 1px solid #242424;
   color: #242424;
   text-transform: uppercase;
-  /* align-self: start; */
   width: 240px;
   margin-left: 120px;
   padding: 16px 21px 16px 16px;
   position: relative;
   margin-bottom: 57px;
   box-sizing: border-box;
+  transition: all 350ms;
+}
+
+.perfomance__button:hover {
+  color: #fff;
+  background-color: #242424;
 }
 
 .perfomance__button::after {
@@ -73,6 +78,11 @@
   background-image: url(../../images/icons/arrow-right.svg);
   background-size: contain;
   background-repeat: no-repeat;
+  transition: all 350ms;
+}
+
+.perfomance__button:hover::after {
+  background-image: url(../../images/icons/arrow-right-white.svg);
 }
 
 .perfomance__image {
