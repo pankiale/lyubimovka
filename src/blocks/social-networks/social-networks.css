@@ -38,7 +38,7 @@
     max-height: 404px;
     min-height: 252px;
     height: auto;
-    margin: auto;
+    margin: 0 auto 40px;
     display: block;
     object-fit: cover;
     object-position: center;
