@@ -6,7 +6,7 @@
 	line-height: 40px;
 	letter-spacing: -0.01em;
 	padding-bottom: 40px;
-	max-width: 568px;
+	max-width: calc(100% - 362px*2);
 	margin: 0;
-	margin-left: 362px;
+	margin: 0 auto;
 }
