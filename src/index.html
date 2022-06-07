@@ -22,7 +22,7 @@
       </nav>
     </header>
     <main class="main">
-      <section class="perfomance page__container main__perfomance">
+      <section class="perfomance page__container">
         <h1 class="perfomance__title">С_училища</h1>
         <p class="perfomance__subtitle">
           Пьеса о демоническом обаянии студентки ПТУ и ее роковой роли в жизни
@@ -30,9 +30,8 @@
         </p>
         <time class="perfomance__time">12 мая 20:00</time>
         <a href="#" class="perfomance__button">Билеты</a>
-        <img src="./images/mosbrew-logo.svg" alt="" />
         <img
-          src="./images/perfomance.png"
+          src="./images/lead-image.jpg"
           alt="Кадр из спектакля С_училища"
           class="perfomance__image"
         />
@@ -62,14 +61,20 @@
           </dd>
         </dl>
         <!-- <iframe src="" frameborder="0"></iframe> -->
-        <iframe
-          class="perfomance__video"
-          src="https://www.youtube.com/embed/qUkeNlgz36Y"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+        <div class="perfomance__video">
+          <img
+            src="./images/video-cover.jpg"
+            alt="Обложка видео"
+            class="perfomance__video-cover"
+          />
+          <button type="button" class="perfomance__video-play"></button>
+          <iframe
+            class="perfomance__iframe"
+            src="https://www.youtube.com/embed/qUkeNlgz36Y"
+            allowfullscreen
+          ></iframe>
+        </div>
+
         <div class="perfomance__text">
           <p class="perfomance__paragraph">
             Пьеса «Длань Господня» (Hand to God) — лауреат американской
@@ -109,22 +114,28 @@
         </div>
         <div class="perfomance__card">
           <div class="perfomance__card-content">
-            <h2 class="perfomance__card-title">С_училища</h2>
+            <h2
+              class="perfomance__card-title perfomance__card-title_type_title"
+            >
+              С_училища
+            </h2>
             <a
               href=""
-              class="perfomance__card-button perfomance__card-button_type_link"
+              class="perfomance__card-button perfomance__card-button_type_true"
               >Смотреть читку</a
             >
             <button
               type="button"
-              class="perfomance__card-button perfomance__card-button_type_button"
+              class="perfomance__card-button perfomance__card-button_type_false"
             >
               Скачать пьесу
             </button>
           </div>
-          <h3 class="perfomance__card-author">Андрей Иванов</h3>
-          <p class="perfomance__card-city">Санкт-Петербург</p>
-          <p class="perfomance__card-year">2020</p>
+          <h3 class="perfomance__card-title perfomance__card-title_type_author">
+            Андрей Иванов
+          </h3>
+          <p class="perfomance__card-subtitle">Санкт-Петербург</p>
+          <p class="perfomance__card-subtitle">2020</p>
         </div>
       </section>
       <section class="photo page__container">
