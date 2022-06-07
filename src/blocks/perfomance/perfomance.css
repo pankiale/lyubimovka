@@ -262,8 +262,46 @@
   margin-top: 0;
   margin-bottom: 4px;
   width: min-content;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
 }
 
+.perfomance__card-title_type_author::before {
+  content: '';
+  width: 120%;
+  height: 55%;
+  left: -6px;
+  top: -3px;
+  position: absolute;
+  background-color: #242424;
+  z-index: -1;
+  opacity: 0;
+}
+
+.perfomance__card-title_type_author::after {
+  content: '';
+  width: 120%;
+  height: 50%;
+  left: -6px;
+  top: 24px;
+  position: absolute;
+  background-color: #242424;
+  z-index: -1;
+  opacity: 0;
+}
+
+.perfomance__card-title_type_author:hover::before {
+  opacity: 1;
+}
+
+.perfomance__card-title_type_author:hover::after {
+  opacity: 1;
+}
+
+.perfomance__card-title_type_author:hover {
+  color: #fff;
+}
 .perfomance__card-button {
   font-family: 'Formular', Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -331,4 +369,10 @@
   font-weight: 300;
   line-height: 22px;
   color: #242424;
+}
+
+.perfomance__list-author {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
