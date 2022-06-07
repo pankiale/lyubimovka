@@ -1,0 +1,14 @@
+.photo {
+	margin-top: 144px;
+}
+.photo__heading {
+	font-family: "Neue Machina";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 40px;
+	letter-spacing: -0.01em;
+	padding-bottom: 40px;
+	max-width: 568px;
+	margin: 0 auto;
+}
