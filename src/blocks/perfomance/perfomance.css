@@ -236,6 +236,11 @@
 .perfomance__card-content {
   background-color: #b7c09d;
   margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.perfomance__card-content:hover .perfomance__card-button {
+  opacity: 1;
 }
 
 .perfomance__card-title {
@@ -277,6 +282,13 @@
   color: #242424;
   text-transform: uppercase;
   position: relative;
+  opacity: 0;
+  transition: opacity 350ms ease;
+}
+
+.perfomance__card-button:hover {
+  background-color: #242424;
+  color: #fff;
 }
 
 .perfomance__card-button::after {
@@ -289,17 +301,27 @@
 }
 
 .perfomance__card-button_type_true::after {
+  content: '';
   width: 16px;
   height: 16px;
   background-image: url(../../images/icons/arrow-top-right.svg);
   right: 21px;
 }
 
+.perfomance__card-button_type_true:hover::after {
+  background-image: url(../../images/icons/arrow-top-right-white.svg);
+}
+
 .perfomance__card-button_type_false::after {
+  content: '';
   width: 25px;
   height: 25px;
   background-image: url(../../images/icons/arrow-down.svg);
   right: 16px;
+}
+
+.perfomance__card-button_type_false:hover::after {
+  background-image: url(../../images/icons/arrow-down-white.svg);
 }
 
 .perfomance__card-subtitle {
