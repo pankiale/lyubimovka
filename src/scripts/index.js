@@ -19,7 +19,6 @@ function setCloseListeners() {
     const popups = document.querySelectorAll('.popup')
     popups.forEach((popup) => {
         popup.addEventListener('mousedown', (evt) => {
-            console.log(evt.target)
             if (evt.target.classList.contains('popup_opened')) {
                 closePopup(popup)
             }
@@ -40,10 +39,6 @@ const handleEscape = (evt) => {
 burger.addEventListener('click', () => {
     openPopup(menuPopup);
 })
-
-// popupCloseButton.addEventListener('click', () => {
-//     closePopup(menuPopup);
-// })
 
 const addCloseListeners = () => {
     page.addEventListener('keydown', handleEscape);
