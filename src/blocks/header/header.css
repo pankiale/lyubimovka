@@ -1,0 +1,74 @@
+.header {
+    border-bottom: 1px solid #242424;
+    height: 61px;
+    display: flex;
+    font-family: 'Formular', Arial, sans-serif;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 43px;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 11px;
+}
+
+.links {
+    display: flex;
+}
+
+.link-container {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    border-right: 1px solid #242424;
+    gap: 44px;
+    margin: 11px 0 0 43px;
+    padding: 0 39px 11px 0;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.link-container:last-of-type {
+    border-right: none;
+}
+
+.link-container_social {
+    margin-left: 24px;
+    padding-right: 26px;
+    gap: 16px;
+}
+
+.link-container_donate {
+    margin-left: 23px;
+    padding-right: 20px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.link-container__donate-icon {
+    background-image: url("../../images/icons/plus.svg");
+    width: 25px;
+    height: 25px;
+}
+
+.link-container__donate-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.link:hover {
+    background-color: #242424;
+    color: #ECEBE8;
+}
