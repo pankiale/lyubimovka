@@ -1,0 +1,57 @@
+// ---------------------------------------------------- constants
+const burger = document.querySelector('.burger');
+const popupCloseButton = document.querySelector('.popup__close-button');
+const menuPopup = document.querySelector('.popup');
+const page = document.querySelector('.page');
+
+// ---------------------------------------------------- functions
+function openPopup(popup) {
+    popup.classList.add('popup_opened');
+    addCloseListeners();
+}
+
+function closePopup(popup) {
+    popup.classList.remove('popup_opened');
+    deleteCloseListeners();
+}
+
+function setCloseListeners() {
+    const popups = document.querySelectorAll('.popup')
+    popups.forEach((popup) => {
+        popup.addEventListener('mousedown', (evt) => {
+            console.log(evt.target)
+            if (evt.target.classList.contains('popup_opened')) {
+                closePopup(popup)
+            }
+            if (evt.target.classList.contains('popup__close-button')) {
+                closePopup(popup)
+            }
+        })
+    })
+}
+
+const handleEscape = (evt) => {
+    if (evt.key === 'Escape') {
+        const openedPopup = document.querySelector('.popup_opened');
+        closePopup(openedPopup);
+    }
+}
+// ---------------------------------------------------- listeners
+burger.addEventListener('click', () => {
+    openPopup(menuPopup);
+})
+
+// popupCloseButton.addEventListener('click', () => {
+//     closePopup(menuPopup);
+// })
+
+const addCloseListeners = () => {
+    page.addEventListener('keydown', handleEscape);
+}
+
+const deleteCloseListeners = () => {
+    page.removeEventListener('keydown', handleEscape);
+}
+// ---------------------------------------------------- execution
+
+setCloseListeners();

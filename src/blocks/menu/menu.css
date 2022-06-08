@@ -1,0 +1,9 @@
+.menu__link-container {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	align-items: flex-start;
+	gap: 25px;
+	margin-left: 55px;
+	padding-left: 0;
+}
