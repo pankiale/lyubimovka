@@ -1,4 +1,4 @@
-.social-networks__icon-conteiner {
+.social-networks__icon-container {
     display: flex;
     gap: 8px;
     width: 175px;
@@ -21,7 +21,7 @@
     border-bottom: 1px black solid;
     text-decoration: none;
     transition: .5s;
-       
+
 }
 
 .social-networks__icon:last-child {
@@ -48,8 +48,9 @@
     display: grid;
     grid-template-columns: 25.14% 46.25% 28.61%;
 }
+
 .social-networks__title {
-    font-family: 'Neue Machina';
+    font-family: 'Neue Machina', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -57,5 +58,5 @@
     letter-spacing: -0.01em;
     color: #242424;
     margin: 0;
-    
+
 }
