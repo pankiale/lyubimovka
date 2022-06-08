@@ -1,7 +1,0 @@
-.footer__content {
-	display: grid;
-	grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr);
-	grid-template-rows: auto auto;
-	row-gap: 62px;
-	padding-top: 6px;
-}
