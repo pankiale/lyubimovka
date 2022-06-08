@@ -10,91 +10,196 @@
 
 <body class="page">
 	<header class="header page__container">
-		<img src="" alt="" class="logo" />
-		<nav>
-			<ul>
-				<li>
-					<a href=""></a>
-					<a href=""></a>
-					<a href=""></a>
-					<a href=""></a>
+		<a href="#"><img src="./images/logos/heart-logo-small.svg" alt="лого" class="logo" /></a>
+		<nav class="links">
+			<ul class="link-container">
+				<li><a href="#" class="link">Афиша</a></li>
+				<li><a href="#" class="link">Библиотека</a></li>
+				<li><a href="#" class="link">Проекты</a></li>
+				<li><a href="#" class="link">История</a></li>
+				<li><a href="#" class="link">Блог</a></li>
+				<li><a href="#" class="link">Новости</a></li>
+				<li><a href="#" class="link">О фестивале</a></li>
+				<li><a href="#" class="link">Контакты</a></li>
+			</ul>
+			<ul class="link-container link-container_social">
+				<li><a href="#" class="link">fb</a></li>
+				<li><a href="#" class="link">inst</a></li>
+				<li><a href="#" class="link">ytube</a></li>
+				<li><a href="#" class="link">tlgrm</a></li>
+				<li><a href="#" class="link">vk</a></li>
+			</ul>
+			<ul class="link-container link-container_donate">
+				<li class="link-container__donate-container">
+					<div class='link-container__donate-icon'></div>
+					<a href="#" class="link">ПОДДЕРЖАТЬ</a>
 				</li>
 			</ul>
 		</nav>
 	</header>
 	<main class="main">
-		<section class="perfomance page__container">
-			<div>
-				<h1>С_училища</h1>
-				<p>
-					Пьеса о демоническом обаянии студентки ПТУ и ее роковой роли в жизни
-					преподавателя философии.
-				</p>
-				<p>12 мая 20:00</p>
-				<button>БИЛЕТЫ</button>
+		<section class="performance page__container">
+			<a href="#" class="performance__link-back">Проекты</a>
+			<h1 class="performance__title">С_училища</h1>
+			<p class="performance__subtitle">
+				Пьеса о демоническом обаянии студентки ПТУ и ее роковой роли в жизни
+				преподавателя философии.
+			</p>
+			<time class="performance__time">12 мая 20:00</time>
+			<a href="#" class="performance__button">Билеты</a>
+			<img src="./images/lead-image.jpg" alt="Кадр из спектакля С_училища" class="performance__image" />
+			<p class="performance__intro">
+				Семён Серзин сделал читку этой пьесы в рамках основной программы
+				Любимовки-2017, Варочный Цех предоставил грант на постановку, а
+				Московский драматический театр имени А.С. Пушкина принял спектакль в
+				репертуар.
+			</p>
+			<div class="performance__duration-block">
+				<p class="performance__duration">1 ч. 15 мин.</p>
+				<p class="performance__age">18+</p>
 			</div>
-			<div>
-				<img src="" alt="" />
-				<p>
-					Семён Серзин сделал читку этой пьесы в рамках основной программы
-					Любимовки-2017, Варочный Цех предоставил грант на постановку, а
-					Московский драматический театр имени А.С. Пушкина принял спектакль в
-					репертуар.
-				</p>
+			<dl class="performance__list">
+				<dt class="performance__item">Драматург</dt>
+				<dd class="performance__person">Роберт Аскинс</dd>
+				<dt class="performance__item">Перевод</dt>
+				<dd class="performance__person">Оксана Алёшина</dd>
+				<dt class="performance__item">Адаптация текста</dt>
+				<dd class="performance__person">Валерий Печейкин</dd>
+				<dt class="performance__item">Режиссёр</dt>
+				<dd class="performance__person">Юрий Муравицкий</dd>
+				<dt class="performance__item">Актёры</dt>
+				<dd class="performance__person">
+					Фёдор Кокорев, Коля Ноекёльн, Ксения Чекина, Александр Пронькин,
+					Владимир Морозов, Светлана Маршанкина
+				</dd>
+			</dl>
+			<!-- <iframe src="" frameborder="0"></iframe> -->
+			<div class="performance__video">
+				<img src="./images/video-cover.jpg" alt="Обложка видео" class="performance__video-cover" />
+				<button type="button" class="performance__video-play"></button>
+				<iframe class="performance__iframe" src="https://www.youtube.com/embed/qUkeNlgz36Y"
+					allowfullscreen></iframe>
 			</div>
-			<div>
-				<img src="" alt="" />
-				<p>
+
+			<div class="performance__text">
+				<p class="performance__paragraph">
 					Пьеса «Длань Господня» (Hand to God) — лауреат американской
 					театральной премии OBIE (Off-Broadway Theater Awards), номинант
 					ежегодно присуждаемой премии TONY (Theatre Of New York),
 					театрального аналога «Оскара», и номинант на Британскую премию
 					Лоуренса Оливье в качестве «Лучшей Новой Комедии». Она была
-					поставлена в бродвейских театрах и в лондонском Вест-Энде. Этот
-					спектакль – результат коллаборации фестиваля драматургии
+					поставлена в бродвейских театрах и в лондонском Вест-Энде.
+				</p>
+				<p class="performance__paragraph">
+					Этот спектакль – результат коллаборации фестиваля драматургии
 					«Любимовка», который запустил проект по выпуску собственных
 					спектаклей «Любимовка.Продакшн», Театра 18+ и Театра.doc.
 					Исполнители – выпускники актерской лаборатории Юрия Муравицкого
-					Московской Школы Нового Кино. Режиссёр спектакля Юрий Муравицкий –
-					лауреат Национальной театральной премии «Золотая маска», лауреат
-					премий Herald Angel Award и Total Theatre Award в номинации
-					Innovation, Experimentation & Playing with Form на Edinburgh
-					Festival Fringe: «В этой пьесе меня задевает её смелость и свобода.
-					И то, что она написана смешно. Мне сейчас интересны комедии. В
-					январе я выпустил «Lё Тартюф. Комедия» в театре на Таганке — тоже
-					комедию и тоже в известном смысле антиклерикальную. У меня есть
-					стойкое ощущение что всему, что сейчас происходит в нашей стране и в
-					мире, мы можем противопоставить только смех. Иногда горький смех,
-					иногда злой. Сейчас в воздухе столько ненависти, что нам всем
-					полезно больше смеяться. И над собой в том числе. «Длань Господня» —
-					это чёрная комедия. Помимо прочего, она показывает к чему приводит
-					навязывание и насильственное насаждение религии». Пьеса была успешно
-					представлена в России в формате читки в 2016 году рамках лаборатории
-					LARK+Любимовка на сцене Центра им. Мейерхольда.
+					Московской Школы Нового Кино.
 				</p>
-				<p></p>
-				<p></p>
-				<p></p>
-				<div>
-					<p></p>
-					<a></a>
-					<a></a>
-					<p></p>
-					<p></p>
+				<p class="performance__paragraph">
+					Режиссёр спектакля Юрий Муравицкий – лауреат Национальной
+					театральной премии «Золотая маска», лауреат премий Herald Angel
+					Award и Total Theatre Award в номинации Innovation, Experimentation
+					& Playing with Form на Edinburgh Festival Fringe: «В этой пьесе меня
+					задевает её смелость и свобода. И то, что она написана смешно. Мне
+					сейчас интересны комедии. В январе я выпустил «Lё Тартюф. Комедия» в
+					театре на Таганке — тоже комедию и тоже в известном смысле
+					антиклерикальную. У меня есть стойкое ощущение что всему, что сейчас
+					происходит в нашей стране и в мире, мы можем противопоставить только
+					смех. Иногда горький смех, иногда злой. Сейчас в воздухе столько
+					ненависти, что нам всем полезно больше смеяться. И над собой в том
+					числе. «Длань Господня» — это чёрная комедия. Помимо прочего, она
+					показывает к чему приводит навязывание и насильственное насаждение
+					религии».
+				</p>
+				<p class="performance__paragraph">
+					Пьеса была успешно представлена в России в формате читки в 2016 году
+					рамках лаборатории LARK+Любимовка на сцене Центра им. Мейерхольда.
+				</p>
+			</div>
+			<div class="performance__card">
+				<div class="performance__card-content">
+					<h2 class="performance__card-title performance__card-title_type_title">
+						С_училища
+					</h2>
+					<a href="" class="performance__card-button performance__card-button_type_true">Смотреть читку</a>
+					<button type="button" class="performance__card-button performance__card-button_type_false">
+						Скачать пьесу
+					</button>
 				</div>
+				<ul class="performance__list-author">
+					<li class="performance__item-author">
+						<a class="performance__card-title performance__card-title_type_author" href="#">
+							Андрей Иванов
+						</a>
+					</li>
+				</ul>
+
+				<p class="performance__card-subtitle">Санкт-Петербург</p>
+				<p class="performance__card-subtitle">2020</p>
 			</div>
 		</section>
 		<section class="photo page__container">
-			<h2>Заголовок блока с фотографиями</h2>
-			<div>
-				<img src="" alt="" />
-				<img src="" alt="" />
-				<img src="" alt="" />
-				<img src="" alt="" />
-				<img src="" alt="" />
-				<img src="" alt="" />
-				<img src="" alt="" />
-				<img src="" alt="" />
+			<h2 class="title title_place_photo">
+				Заголовок блока с&nbsp;фотографиями
+			</h2>
+			<ul class="photo-gallery">
+				<li>
+					<img class="photo-gallery__img" src="./images/gallery/gallery-1.jpg" alt="Выступление" />
+				</li>
+				<li>
+					<img class="photo-gallery__img" src="./images/gallery/gallery-2.jpg" alt="Выступление" />
+				</li>
+				<li>
+					<img class="photo-gallery__img" src="./images/gallery/gallery-3.jpg" alt="Выступление" />
+				</li>
+				<li>
+					<img class="photo-gallery__img" src="./images/gallery/gallery-4.jpg" alt="Выступление" />
+				</li>
+				<li>
+					<img class="photo-gallery__img" src="./images/gallery/gallery-5.jpg" alt="Зрительный зал" />
+				</li>
+				<li>
+					<img class="photo-gallery__img" src="./images/gallery/gallery-6.jpg" alt="Выступление" />
+				</li>
+				<li>
+					<img class="photo-gallery__img" src="./images/gallery/gallery-7.jpg" alt="Выступление" />
+				</li>
+				<li>
+					<img class="photo-gallery__img" src="./images/gallery/gallery-8.jpg" alt="Выступление" />
+				</li>
+			</ul>
+		</section>
+		<section class="social-networks page__container">
+			<img class="social-networks__image" src="./images/about-us-image.jpg" alt="Фрагмент спектакля">
+			<ul class="social-networks__icon-container">
+				<li class="social-networks__link">
+					<a href="#" class="social-networks__icon">
+						<img class="social-networks__icon-img" src="./images/logos/arrow-right.svg"
+							alt="Стрелка вправо">
+						<p class="social-networks__icon-arrow">fb</p>
+					</a>
+				</li>
+				<li class="social-networks__link">
+					<a href="#" class="social-networks__icon">
+						<img class="social-networks__icon-img" src="./images/logos/arrow-right.svg"
+							alt="Стрелка вправо">
+						<p class="social-networks__icon-arrow">vk</p>
+					</a>
+				</li>
+				<li class="social-networks__link">
+					<a href="#" class="social-networks__icon">
+						<img class="social-networks__icon-img" src="./images/logos/arrow-right.svg"
+							alt="Стрелка вправо">
+						<p class="social-networks__icon-arrow">twtr</p>
+					</a>
+				</li>
+			</ul>
+			<div class="social-networks__title-container">
+				<div></div>
+				<h2 class="social-networks__title">Рассказать <br /> о спектале в соцсетях</h2>
+				<div></div>
 			</div>
 		</section>
 		<section class="reviews reviews_type_critique page__container">
@@ -142,12 +247,12 @@
 			<h2>Рассказать о спектакле в соцсетях</h2>
 		</section>
 	</main>
+
 	<footer class="footer page__container">
 		<a href="" class="footer__logo">
 			<img src="./images/footer/logo-footer.svg" alt="Логотип">
 		</a>
 		<div class="footer__content">
-
 			<div class="footer__partners-logo partners-logo">
 				<p class="partners-logo__title">Генеральные партнеры</p>
 				<a href="" class="partners-logo__logo">
@@ -230,8 +335,6 @@
 					</li>
 				</ul>
 			</nav>
-
-
 		</div>
 
 		<div class="footer__copyright">
@@ -245,9 +348,6 @@
 				<p>вёрстка и разработака — студенты Яндекс.Практикума</p>
 			</div>
 		</div>
-
-
-
 	</footer>
 
 	<script src="scripts/index.js" defer></script>
