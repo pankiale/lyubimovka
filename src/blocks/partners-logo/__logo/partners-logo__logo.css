@@ -1,0 +1,20 @@
+.partners-logo__logo {
+	mix-blend-mode: multiply;
+}
+
+.partners-logo__logo:nth-of-type(1) img {
+	width: 91px;
+}
+
+.partners-logo__logo:nth-of-type(2) img {
+	width: 88px;
+}
+
+
+.partners-logo__logo:nth-of-type(3) img {
+	width: 68px;
+}
+
+.partners-logo__logo:nth-of-type(4) img {
+	width: 97px;
+}

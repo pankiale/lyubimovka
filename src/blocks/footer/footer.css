@@ -1,0 +1,9 @@
+.footer {
+	font-family: 'Formular';
+	font-size: 14px;
+	display: grid;
+	grid-template-columns: min-content minmax(min-content, max-content);
+	grid-template-rows: repeat(2, auto);
+	padding: 42px 0 54px 0;
+	row-gap: 49px;
+}

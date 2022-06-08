@@ -1,0 +1,13 @@
+.footer__list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.footer__list:first-child {
+	margin-right: 100px;
+}
+
+.footer__list:last-child {
+	margin-left: 77px;
+}

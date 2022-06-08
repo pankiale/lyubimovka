@@ -1,0 +1,4 @@
+.footer__nav {
+	display: flex;
+	grid-row-start: 2;
+}
