@@ -1,0 +1,61 @@
+.social-networks__icon-conteiner {
+    display: flex;
+    gap: 8px;
+    width: 175px;
+    margin: 0 auto 0 46.56%;
+    list-style: none;
+    padding: 0;
+}
+
+.social-networks__icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 53px;
+    height: 24px;
+    font-family: 'Formular', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 14px;
+    color: #382e2e;
+    border-left: 1px black solid;
+    border-bottom: 1px black solid;
+    text-decoration: none;
+    transition: .5s;
+       
+}
+
+.social-networks__icon:last-child {
+    width: 62px;
+}
+
+.social-networks__icon:hover {
+    opacity: .8;
+}
+
+.social-networks__image {
+    width: 100%;
+    max-width: 1320px;
+    max-height: 404px;
+    min-height: 252px;
+    height: auto;
+    margin: 0 auto 40px;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+.social-networks__title-container {
+    display: grid;
+    grid-template-columns: 25.14% 46.25% 28.61%;
+}
+.social-networks__title {
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+    color: #242424;
+    margin: 0;
+    
+}
