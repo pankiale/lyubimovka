@@ -48,8 +48,9 @@
     display: grid;
     grid-template-columns: 25.14% 46.25% 28.61%;
 }
+
 .social-networks__title {
-    font-family: 'Neue Machina';
+    font-family: 'Neue Machina', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
