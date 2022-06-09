@@ -27,6 +27,12 @@
 	margin-top: 31px;
 }
 
+.performance__link-back_place_header {
+	display: none;
+	margin-top: 30px;
+	margin-left: 65px;
+}
+
 .performance__link-back:hover {
 	color: #ffffff;
 }
@@ -444,4 +450,14 @@
 	margin: 0;
 	padding: 0;
 	list-style: none;
+}
+
+@media screen and (max-width: 1080px) {
+	.performance__link-back_place_header {
+		display: flex;
+	}
+
+	.performance__link-back_place_performance {
+		display: none;
+	}
 }

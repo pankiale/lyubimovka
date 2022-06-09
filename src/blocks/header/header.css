@@ -29,4 +29,14 @@
 	}
 }
 
+@media screen and (max-width: 1080px) {
+	.logo {
+		margin-top: 30px;
+	}
+
+	.header {
+		border-bottom: none;
+	}
+}
+
 
