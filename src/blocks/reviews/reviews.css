@@ -1,0 +1,111 @@
+.reviews_type_feedback {
+	margin-bottom: 64px;
+}
+
+.reviews__slider-feedback-title-container {
+	display: grid;
+	grid-template-columns: 1fr max-content max-content;
+	grid-template-rows: auto;
+	justify-items: center;
+	align-items: center;
+	column-gap: 30px;
+	grid-template-areas:
+		"title pagination arrow"
+		"pagination-mobile pagination-mobile pagination-mobile";
+	max-width: calc(100% - 362px * 2);
+	width: 100%;
+	margin: 0 auto 60px;
+}
+
+.reviews__slider-feedback-title {
+	font-family: "Neue Machina", Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 40px;
+	letter-spacing: -0.01em;
+	color: #242424;
+	margin: 0;
+}
+
+.reviews__slider-feedback-pagination {
+	display: flex;
+	gap: 8px;
+}
+
+.reviews__slider-feedback-btn-conteiner {
+	display: flex;
+	gap: 30px;
+}
+
+.reviews__slider-feedback-slide {
+	background-color: #fff;
+	padding: 33px 30px 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+
+.reviews__slider-feedback-text {
+	font-family: "Formular";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 28px;
+	letter-spacing: -0.01em;
+	font-feature-settings: "ss01" on;
+	color: #242424;
+	margin: 0;
+}
+
+.reviews__slider-feedback-author {
+	font-family: "Neue Machina", Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: -0.01em;
+	color: #242424;
+	margin: 0;
+}
+
+.reviews__slider-feedback-button-prev {
+	border: none;
+	width: 50px;
+	height: 50px;
+	background: transparent url(../../images/icons/slider-arrow-right.svg)
+		no-repeat left center;
+
+	cursor: pointer;
+	padding: 0;
+}
+
+.reviews__slider-feedback-button-next {
+	border: none;
+	width: 50px;
+	height: 50px;
+	background: transparent url(../../images/icons/slider-arrow-left.svg)
+		no-repeat right center;
+	cursor: pointer;
+	padding: 0;
+}
+
+@media screen and (max-width: 1320px) {
+	.reviews__slider-feedback-title-conteiner {
+		max-width: calc(100% - 24px * 2);
+		justify-items: start;
+		row-gap: 24px;
+	}
+
+	.reviews__slider-feedback-pagination {
+		grid-area: pagination-mobile;
+		height: 72px;
+		display: flex;
+		align-items: center;
+	}
+
+	.reviews__slider-feedback-btn-conteiner {
+		grid-area: arrow;
+	}
+}
