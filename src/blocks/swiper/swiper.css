@@ -1,0 +1,20 @@
+.swiper {
+	max-width: 1320px;
+	height: 361px;
+}
+
+.swiper-pagination-bullet {
+	background: transparent;
+	width: 4px;
+	height: 4px;
+	border: 1px solid black;
+	margin: 0;
+	opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+	background-color: #242424;
+	width: 6px;
+	height: 6px;
+	margin: 0;
+}
