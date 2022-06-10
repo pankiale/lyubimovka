@@ -35,7 +35,7 @@ const handleEscape = (evt) => {
     }
 };
 
-const swiper = new Swiper(".swiper", {
+const swiperFeedback = new Swiper(".swiper", {
     slidesPerView: 3,
     spaceBetween: 30,
     direction: "horizontal",
@@ -59,13 +59,13 @@ const swiperReview = new Swiper(".swiperReview", {
     loop: true,
 
     pagination: {
-        el: ".reviews__slider-feedback-pagination",
+        el: ".reviews__slider-critique-pagination",
         clickable: true,
     },
 
     navigation: {
-        nextEl: ".reviews__slider-feedback-button-next",
-        prevEl: ".reviews__slider-feedback-button-prev",
+        nextEl: ".reviews__slider-critique-button-next",
+        prevEl: ".reviews__slider-critique-button-prev",
     },
 });
 

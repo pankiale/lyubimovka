@@ -1,9 +1,10 @@
-.swiperReview{
-width: 100%;
-overflow: hidden;
-position: relative;
+.swiperReview {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
 }
 
-.card-review, .swiper-slide-active{
-    width: 718px;
+.card-review,
+.swiper-slide-active {
+	width: 718px;
 }
