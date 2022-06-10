@@ -1,6 +1,5 @@
 // ---------------------------------------------------- constants
 const burger = document.querySelector('.burger');
-const popupCloseButton = document.querySelector('.popup__close-button');
 const menuPopup = document.querySelector('.popup');
 const page = document.querySelector('.page');
 
