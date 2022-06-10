@@ -463,7 +463,11 @@
 
 @media (max-width: 768px) {
 	.performance {
-		grid-template-columns: minmax(414px, 720px);
+		grid-template-columns: 1fr;
+	}
+
+	.performance__link-back{
+		left: 86px;
 	}
 
 	.performance__title {
@@ -540,12 +544,17 @@
 		margin-bottom: 24px;
 	}
 
+	.performance__card-button {
+		opacity: 1;
+	}
+
 	.performance__card-title_type_author {
 		display: inline;
 	}
 
 	.performance__card-title_type_author::before {
 		height: 100%;
+		top:-2px;
 	}
 
 	.performance__card-title_type_author::after {
