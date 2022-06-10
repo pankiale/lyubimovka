@@ -1,18 +1,19 @@
 .reviews {
-	font-family: "Neue Machina", "Arial", sans-serif;
+	font-family: "Neue Machina", Arial, Helvetica, sans-serif;
 }
 
 .reviews__title-container {
 	display: grid;
 	grid-template-columns: 1fr max-content max-content;
 
-	justify-items: center;
+	justify-content: space-between;
 	align-items: center;
 	column-gap: 30px;
 
 	max-width: calc(100% - 362px * 2);
 	width: 100%;
 	margin: 0 auto 60px;
+	text-align: left;
 }
 
 .reviews__slider-critique-title {
@@ -31,7 +32,7 @@
 	gap: 8px;
 }
 
-.reviews__slider-critique-btn-conteiner {
+.reviews__slider-critique-btn-container {
 	display: flex;
 	gap: 30px;
 }
@@ -65,7 +66,7 @@
 	display: grid;
 	grid-template-columns: 1fr max-content max-content;
 	grid-template-rows: auto;
-	justify-items: center;
+	justify-content: space-between;
 	align-items: center;
 	column-gap: 30px;
 	grid-template-areas:
@@ -73,7 +74,8 @@
 		"pagination-mobile pagination-mobile pagination-mobile";
 	max-width: calc(100% - 362px * 2);
 	width: 100%;
-	margin: 0 auto 60px;
+	margin: 0 auto 40px;
+	text-align: left;
 }
 
 .reviews__slider-feedback-title {
@@ -92,7 +94,7 @@
 	gap: 8px;
 }
 
-.reviews__slider-feedback-btn-conteiner {
+.reviews__slider-feedback-btn-container {
 	display: flex;
 	gap: 30px;
 }
@@ -107,7 +109,7 @@
 }
 
 .reviews__slider-feedback-text {
-	font-family: "Formular";
+	font-family: "Formular", Arial, Helvetica, sans-serif;
 	font-style: normal;
 	font-weight: 300;
 	font-size: 20px;
@@ -151,7 +153,7 @@
 }
 
 @media screen and (max-width: 1320px) {
-	.reviews__slider-feedback-title-conteiner {
+	.reviews__slider-feedback-title-container {
 		max-width: calc(100% - 24px * 2);
 		justify-items: start;
 		row-gap: 24px;
@@ -164,7 +166,7 @@
 		align-items: center;
 	}
 
-	.reviews__slider-feedback-btn-conteiner {
+	.reviews__slider-feedback-btn-container {
 		grid-area: arrow;
 	}
 }

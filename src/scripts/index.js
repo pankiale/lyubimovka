@@ -53,7 +53,7 @@ const swiperFeedback = new Swiper(".swiper", {
 });
 
 const swiperReview = new Swiper(".swiperReview", {
-    slidesPerView: 1.5,
+    slidesPerView: "auto",
     spaceBetween: 30,
     direction: "horizontal",
     loop: true,
@@ -62,6 +62,7 @@ const swiperReview = new Swiper(".swiperReview", {
         el: ".reviews__slider-critique-pagination",
         clickable: true,
     },
+    centeredSlides: true,
 
     navigation: {
         nextEl: ".reviews__slider-critique-button-next",
