@@ -1,5 +1,5 @@
 .swiper {
-	max-width: 1320px;
+	width: 1320px;
 	height: 361px;
 }
 
@@ -17,4 +17,15 @@
 	width: 6px;
 	height: 6px;
 	margin: 0;
+}
+
+@media screen and (max-width: 1320px) {
+	.swiper {
+		width: 870px;
+	}
+}
+@media screen and (max-width: 930px) {
+	.swiper {
+		width: 420px;
+	}
 }
