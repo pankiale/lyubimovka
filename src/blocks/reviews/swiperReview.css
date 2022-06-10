@@ -4,6 +4,10 @@ overflow: hidden;
 position: relative;
 }
 
-.card-review, .swiper-slide-active{
-    width: 718px;
+.swiper-slide-prev{
+    opacity: 0;
+}
+
+.swiper-slide-next{
+opacity: 0.4;
 }
