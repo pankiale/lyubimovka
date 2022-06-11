@@ -37,27 +37,6 @@
 	gap: 30px;
 }
 
-.reviews__slider-critique-button-prev {
-	border: none;
-	width: 50px;
-	height: 50px;
-	background: transparent url(../../images/icons/slider-arrow-right.svg)
-		no-repeat left center;
-
-	cursor: pointer;
-	padding: 0;
-}
-
-.reviews__slider-critique-button-next {
-	border: none;
-	width: 50px;
-	height: 50px;
-	background: transparent url(../../images/icons/slider-arrow-left.svg)
-		no-repeat right center;
-	cursor: pointer;
-	padding: 0;
-}
-
 .reviews_type_feedback {
 	margin-bottom: 64px;
 }
@@ -129,27 +108,6 @@
 	letter-spacing: -0.01em;
 	color: #242424;
 	margin: 0;
-}
-
-.reviews__slider-feedback-button-prev {
-	border: none;
-	width: 50px;
-	height: 50px;
-	background: transparent url(../../images/icons/slider-arrow-right.svg)
-		no-repeat left center;
-
-	cursor: pointer;
-	padding: 0;
-}
-
-.reviews__slider-feedback-button-next {
-	border: none;
-	width: 50px;
-	height: 50px;
-	background: transparent url(../../images/icons/slider-arrow-left.svg)
-		no-repeat right center;
-	cursor: pointer;
-	padding: 0;
 }
 
 @media screen and (max-width: 1320px) {

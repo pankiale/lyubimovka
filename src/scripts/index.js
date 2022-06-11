@@ -48,8 +48,8 @@ const swiperFeedback = new Swiper(".swiper", {
     },
 
     navigation: {
-        nextEl: ".reviews__slider-feedback-button-next",
-        prevEl: ".reviews__slider-feedback-button-prev",
+        nextEl: ".button-slider_swiper_button_feedback_next",
+        prevEl: ".button-slider_swiper_button_feedback_prev",
     },
 });
 
@@ -66,8 +66,8 @@ const swiperReview = new Swiper(".swiperReview", {
     centeredSlides: true,
 
     navigation: {
-        nextEl: ".reviews__slider-critique-button-next",
-        prevEl: ".reviews__slider-critique-button-prev",
+        nextEl: ".button-slider_swiper_button_critique_next",
+        prevEl: ".button-slider_swiper_button_critique_prev",
     },
 });
 
