@@ -1,9 +1,40 @@
+.header-cardReview{
+	position: relative;
+	margin: 0 auto;
+	width: 718px;
+}
+
+.header-cardReview__header{
+	margin:0 0 40px 0;
+	padding: 0;
+	font-family: "Neue Machina", Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 40px;
+	letter-spacing: -0.01em;
+}
+
 .swiperReview {
 	width: 100%;
 	overflow: hidden;
 	position: relative;
 }
 
-.swiper-slide-active {
-	width: 718px;
+.swiper-slide-next.card-review{
+	opacity: 0.4;
+}
+.swiper-slide-prev.card-review{
+	opacity: 0;
+}
+
+.reviews_type_critique-btn-container{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.header-cardReview__pagination{
+	position: absolute;
+	right: 40px;
+	top: 20px;
 }

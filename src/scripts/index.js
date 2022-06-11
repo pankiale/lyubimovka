@@ -40,6 +40,7 @@ const swiperFeedback = new Swiper(".swiper", {
     spaceBetween: 30,
     direction: "horizontal",
     loop: true,
+    watchSlidesProgress: true,
 
     pagination: {
         el: ".reviews__slider-feedback-pagination",
