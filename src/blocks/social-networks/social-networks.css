@@ -1,5 +1,5 @@
-.social-networks__link {
-	position: relative;
+.social-networks {
+	margin-bottom: 140px;
 }
 .social-networks__icon-container {
 	display: flex;
@@ -132,7 +132,7 @@
 }
 
 .social-networks__title {
-	font-family: "Neue Machina", Arial, sans-serif;
+	font-family: "Neue Machina", Arial, Helvetica, sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
@@ -140,4 +140,10 @@
 	letter-spacing: -0.01em;
 	color: #242424;
 	margin: 0;
+}
+
+@media screen and (max-width: 1320px) {
+	.social-networks {
+		margin-bottom: 100px;
+	}
 }

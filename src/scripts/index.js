@@ -62,6 +62,19 @@ const swiperFeedback = new Swiper(".swiper", {
     },
 });
 
+const swiperReview = new Swiper(".swiperReview", {
+    slidesPerView: "auto",
+    spaceBetween: 30,
+    direction: "horizontal",
+    loop: true,
+
+    pagination: {
+        el: ".reviews__slider-critique-pagination",
+        clickable: true,
+    },
+    centeredSlides: true,
+});
+
 // const buttonPag = document.querySelector(".button");
 // const pag = document.querySelector(".reviews__slider-feedback-pagination-mob");
 // const newPag = document.querySelector(".reviews__slider-feedback-pagination");

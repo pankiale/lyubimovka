@@ -1,3 +1,63 @@
+.reviews {
+	font-family: "Neue Machina", Arial, Helvetica, sans-serif;
+}
+
+.reviews__title-container {
+	display: grid;
+	grid-template-columns: 1fr max-content max-content;
+
+	justify-content: space-between;
+	align-items: center;
+	column-gap: 30px;
+
+	width: calc(100% - 362px * 2);
+	width: 100%;
+	margin: 0 auto 60px;
+	text-align: left;
+}
+
+.reviews__slider-critique-title {
+	font-family: "Neue Machina", Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 40px;
+	letter-spacing: -0.01em;
+	color: #242424;
+	margin: 0;
+}
+
+.reviews__slider-critique-pagination {
+	display: flex;
+	gap: 8px;
+}
+
+.reviews__slider-critique-btn-container {
+	display: flex;
+	gap: 30px;
+}
+
+.reviews__slider-critique-button-prev {
+	border: none;
+	width: 50px;
+	height: 50px;
+	background: transparent url(../../images/icons/slider-arrow-right.svg)
+		no-repeat left center;
+
+	cursor: pointer;
+	padding: 0;
+}
+
+.reviews__slider-critique-button-next {
+	border: none;
+	width: 50px;
+	height: 50px;
+	background: transparent url(../../images/icons/slider-arrow-left.svg)
+		no-repeat right center;
+	cursor: pointer;
+	padding: 0;
+}
+
 .reviews_type_feedback {
 	margin-bottom: 64px;
 }
@@ -6,7 +66,7 @@
 	display: grid;
 	grid-template-columns: 1fr max-content max-content;
 	grid-template-rows: auto;
-	justify-items: center;
+	justify-content: space-between;
 	align-items: center;
 	column-gap: 30px;
 	grid-template-areas:
@@ -14,8 +74,8 @@
 		"pagination-mobile pagination-mobile pagination-mobile";
 	max-width: calc(100% - 362px * 2);
 	width: 100%;
-	margin: 0 auto 60px;
-	position: relative;
+	margin: 0 auto 40px;
+	text-align: left;
 }
 
 .reviews__slider-feedback-title {
@@ -49,7 +109,7 @@
 }
 
 .reviews__slider-feedback-text {
-	font-family: "Formular";
+	font-family: "Formular", Arial, Helvetica, sans-serif;
 	font-style: normal;
 	font-weight: 300;
 	font-size: 20px;
