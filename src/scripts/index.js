@@ -39,7 +39,7 @@ const swiperFeedback = new Swiper(".swiper", {
     slidesPerView: 1,
     spaceBetween: 30,
     direction: "horizontal",
-    loop: false,
+    loop: true,
 
     pagination: {
         el: ".reviews__slider-feedback-pagination",
@@ -61,7 +61,7 @@ const swiperFeedback = new Swiper(".swiper", {
         },
     },
 });
-
+console.log(swiperFeedback.pagination.el);
 const swiperReview = new Swiper(".swiperReview", {
     slidesPerView: "auto",
     spaceBetween: 30,
@@ -73,23 +73,13 @@ const swiperReview = new Swiper(".swiperReview", {
         clickable: true,
     },
     centeredSlides: true,
+
+    navigation: {
+        nextEl: ".reviews__slider-critique-button-next",
+        prevEl: ".reviews__slider-critique-button-prev",
+    },
 });
 
-// const buttonPag = document.querySelector(".button");
-// const pag = document.querySelector(".reviews__slider-feedback-pagination-mob");
-// const newPag = document.querySelector(".reviews__slider-feedback-pagination");
-// buttonPag.addEventListener("click", () => {
-//     console.log(swiperFeedback.pagination.el, "123");
-// });
-// window.addEventListener("resize", () => {
-//     if (window.screen.width >= 930) {
-//         console.log("newPag");
-//         swiperFeedback.pagination.el = newPag;
-//     } else {
-//         console.log("pag");
-//         swiperFeedback.pagination.el = pag;
-//     }
-// });
 // ---------------------------------------------------- listeners
 burger.addEventListener("click", () => {
     openPopup(menuPopup);

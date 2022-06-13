@@ -19,13 +19,24 @@
 	margin: 0;
 }
 
+
 @media screen and (max-width: 1320px) {
 	.swiper {
 		max-width: 870px;
 	}
 }
+
 @media screen and (max-width: 930px) {
 	.swiper {
 		max-width: 420px;
+		min-height: 361;
+		height: auto;
+	}
+
+	.swiper-pagination-bullets.swiper-pagination-horizontal {
+		position: absolute;
+		top: 50px;
+		left: 29px;
+		z-index: 2;
 	}
 }

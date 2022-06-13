@@ -25,6 +25,7 @@
 	text-decoration: none;
 	cursor: pointer;
 	transition: color 0.5s cubic-bezier(0.08, 0.82, 0.6, 1.02);
+	position: relative;
 }
 .social-networks__icon:last-child {
 	width: 62px;
