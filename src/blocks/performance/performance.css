@@ -203,6 +203,7 @@
 
 .performance__list {
 	grid-column: 1/2;
+	grid-row: 7/9;
 	margin-left: 182px;
 	margin-top: 0;
 }
@@ -271,8 +272,8 @@
 
 .performance__text {
 	grid-column: 2/2;
-	grid-row: 7/8;
-	margin-top: 400px;
+	grid-row: 8/9;
+	margin-top: 66px;
 	max-width: 610px;
 	margin-bottom: 80px;
 }
@@ -570,6 +571,7 @@
 	}
 
 	.performance__list {
+		grid-row: auto;
 		background-color: #fff;
 		margin: 0;
 		padding: 0 20px 72px 27px;
