@@ -466,7 +466,7 @@
 	.performance {
 		column-gap: 30px;
 	}
-	
+
 	.performance__title {
 		margin-left: 60px;
 		font-size: 60px;
@@ -573,9 +573,8 @@
 	.performance__list {
 		grid-row: auto;
 		background-color: #fff;
-		margin: 0;
 		padding: 0 20px 72px 27px;
-		margin-bottom: 24px;
+		margin: 0 0 24px;
 	}
 
 	.performance__video {
