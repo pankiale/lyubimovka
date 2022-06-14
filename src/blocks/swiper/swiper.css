@@ -19,10 +19,8 @@
 	margin: 0;
 }
 
-.swiper-slide-prev-el{
-	display: none;
-}
-
 .header-cardReview__pagination.swiper-pagination-bullets.swiper-pagination-horizontal{
-	right: 150px;
+	left: 508px;
+	width: 82px;
+	bottom: 20px
 }
