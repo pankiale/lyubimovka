@@ -29,7 +29,7 @@
 @media screen and (max-width: 930px) {
 	.swiper {
 		max-width: 420px;
-		min-height: 361;
+		min-height: 361px;
 		height: auto;
 	}
 
