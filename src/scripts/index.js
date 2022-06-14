@@ -36,11 +36,10 @@ const handleEscape = (evt) => {
 };
 
 const swiperFeedback = new Swiper(".swiper", {
-    slidesPerView: 3,
+    slidesPerView: 1,
     spaceBetween: 30,
     direction: "horizontal",
     loop: true,
-    watchSlidesProgress: true,
 
     pagination: {
         el: ".reviews__slider-feedback-pagination",
@@ -51,8 +50,18 @@ const swiperFeedback = new Swiper(".swiper", {
         nextEl: ".reviews__slider-feedback-button-next",
         prevEl: ".reviews__slider-feedback-button-prev",
     },
-});
 
+    breakpoints: {
+        930: {
+            slidesPerView: 2,
+        },
+
+        1321: {
+            slidesPerView: 3,
+        },
+    },
+});
+console.log(swiperFeedback.pagination.el);
 const swiperReview = new Swiper(".swiperReview", {
     slidesPerView: "auto",
     spaceBetween: 30,
