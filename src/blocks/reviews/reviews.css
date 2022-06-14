@@ -88,6 +88,12 @@
 	flex-direction: column;
 	justify-content: space-between;
 	box-sizing: border-box;
+	transition: all .4s ease-in;
+
+}
+
+.reviews__slider-feedback-slide:hover {
+	box-shadow: 0 0 10px #242424;
 }
 
 .reviews__slider-feedback-text {
@@ -97,7 +103,7 @@
 	font-size: 20px;
 	line-height: 28px;
 	letter-spacing: -0.01em;
-	font-feature-settings: "ss01" on;
+	font-feature-settings: "ss01"on;
 	color: #242424;
 	margin: 0;
 }
