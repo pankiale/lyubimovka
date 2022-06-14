@@ -102,7 +102,7 @@
 	height: 25px;
 }
 
-.footer__info-link  {
+.footer__info-link {
 	text-decoration: none;
 	color: #242424;
 	padding-left: 2px;
@@ -112,7 +112,7 @@
 	max-width: 151px;
 }
 
-.footer__info-link:nth-of-type(2)  {
+.footer__info-link:nth-of-type(2) {
 	max-width: 207px;
 }
 
