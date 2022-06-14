@@ -31,26 +31,26 @@
 }
 
 .popup__close-button {
-    background-image: url('../../images/icons/close-btn.svg');
-    width: 72px;
-    height: 72px;
-    margin-top: 25px;
+	background-image: url('../../images/icons/close-btn.svg');
+	width: 72px;
+	height: 72px;
+	margin-top: 25px;
 	margin-right: 0;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    align-self: flex-end;
-    transition: 0.5s ease;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	align-self: flex-end;
+	transition: 0.5s ease;
 	position: absolute;
 	top: 0;
 	right: 0;
 }
 
 .popup__close-button:hover {
-    opacity: 0.6;
-    transition: 0.5s ease;
+	opacity: 0.6;
+	transition: 0.5s ease;
 }
 

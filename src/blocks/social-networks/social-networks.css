@@ -1,6 +1,7 @@
 .social-networks {
 	margin-bottom: 140px;
 }
+
 .social-networks__icon-container {
 	display: flex;
 	gap: 8px;
@@ -23,17 +24,98 @@
 	border-left: 1px black solid;
 	border-bottom: 1px black solid;
 	text-decoration: none;
-	transition: 0.5s;
+	cursor: pointer;
+	transition: color 0.5s cubic-bezier(0.08, 0.82, 0.6, 1.02);
+	position: relative;
 }
-
 .social-networks__icon:last-child {
 	width: 62px;
 }
 
 .social-networks__icon:hover {
-	opacity: 0.8;
+	color: #fff;
 }
 
+/* .social-networks__icon::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 20px;
+	height: 13px;
+    transform: translateY(-50%);
+	background-image: url(../../images/icons/arrow-right.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	transition: all 0.5s cubic-bezier(0.08, 0.82, 0.6, 1.02);
+}
+
+.social-networks__icon:hover::after {
+    background-image: url(../../images/icons/arrow-right-white.svg);
+}
+
+.social-networks__icon::before {
+    content: '';
+	position: absolute;
+	width: 0;
+	height: 100%;
+	top: 0;
+	right: 0;
+	z-index: -1;
+	background-color: #242424;
+	transition: all 0.5s cubic-bezier(0.08, 0.82, 0.6, 1.02);
+}
+
+.social-networks__icon:hover::before {
+    width: 100%;
+}
+
+.social-networks__icon:active::before {
+    transform: scale(1.2);
+} */
+
+.social-networks__icon::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 20px;
+	height: 13px;
+	transform: translateY(-50%);
+	background-image: url(../../images/icons/arrow-right.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	transition: all 0.5s cubic-bezier(0.08, 0.82, 0.6, 1.02);
+}
+
+.social-networks__icon:hover::before {
+	background-image: url(../../images/icons/arrow-right-white.svg);
+}
+
+.social-networks__icon::after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 100%;
+	top: 50%;
+	right: 0;
+	z-index: -1;
+	background-color: #242424;
+	transition: all 0.5s cubic-bezier(0.08, 0.82, 0.6, 1.02);
+}
+
+.social-networks__icon:hover::after {
+	width: 100%;
+}
+
+.social-networks__icon:active::before {
+	transform: scale(1.2);
+}
+
+.social-networks__icon-arrow {
+	position: absolute;
+	left: 24px;
+}
 .social-networks__image {
 	width: 100%;
 	max-width: 1320px;

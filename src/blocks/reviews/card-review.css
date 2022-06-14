@@ -11,11 +11,13 @@
 	max-height: 782px;
 	box-sizing: border-box;
 }
+
 .card-review__logo {
 	max-width: 241px;
 	height: 40px;
 	padding: 0;
 }
+
 .card-review__text {
 	margin: 47px 0 0;
 	font-family: "Formular", "Arial", sans-serif;
@@ -61,6 +63,7 @@
 	line-height: 14px;
 	color: #242424;
 }
+
 .card-review__button-image {
 	width: 25px;
 	height: 25px;

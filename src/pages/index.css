@@ -10,10 +10,10 @@
 @import url(../blocks/photo/photo.css);
 @import url(../blocks/photo-gallery/photo-gallery.css);
 @import url(../blocks/reviews/reviews.css);
-@import url(../blocks/share/share.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/social-networks/social-networks.css);
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/swiper/swiper.css);
 @import url(../blocks/reviews/card-review.css);
 @import url(../blocks/reviews/swiperReview.css);
+@import url(../blocks/button-slider/button-slider.css);
