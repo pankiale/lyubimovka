@@ -22,3 +22,7 @@
 .swiper-slide-prev-el{
 	display: none;
 }
+
+.header-cardReview__pagination.swiper-pagination-bullets.swiper-pagination-horizontal{
+	right: 150px;
+}

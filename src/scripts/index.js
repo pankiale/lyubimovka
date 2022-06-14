@@ -40,7 +40,7 @@ const swiperFeedback = new Swiper(".swiper", {
     spaceBetween: 30,
     direction: "horizontal",
     loop: true,
-    watchSlidesProgress: true,
+    //watchSlidesProgress: true,
 
     pagination: {
         el: ".reviews__slider-feedback-pagination",
@@ -60,7 +60,7 @@ const swiperReview = new Swiper(".swiperReview", {
     loop: true,
 
     pagination: {
-        el: ".reviews__slider-critique-pagination",
+        el: ".header-cardReview__pagination",
         clickable: true,
     },
     centeredSlides: true,

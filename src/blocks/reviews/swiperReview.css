@@ -2,6 +2,9 @@
 	position: relative;
 	margin: 0 auto;
 	width: 718px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 .header-cardReview__header{
@@ -13,6 +16,7 @@
 	font-size: 40px;
 	line-height: 40px;
 	letter-spacing: -0.01em;
+	
 }
 
 .swiperReview {
@@ -29,12 +33,12 @@
 }
 
 .reviews_type_critique-btn-container{
-	position: absolute;
-	right: 0px;
-	top: 0px;
+	margin: 0
 }
 .header-cardReview__pagination{
+	display: flex;
+	gap: 8px;
 	position: absolute;
-	right: 40px;
+	right: 150px;
 	top: 20px;
 }
