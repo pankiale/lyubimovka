@@ -1,4 +1,4 @@
-.swiper {
+.reviews__slider-feedback.swiper {
 	max-width: 1320px;
 	height: 361px;
 }
@@ -21,13 +21,13 @@
 
 
 @media screen and (max-width: 1320px) {
-	.swiper {
+	.reviews__slider-feedback.swiper {
 		max-width: 870px;
 	}
 }
 
 @media screen and (max-width: 930px) {
-	.swiper {
+	.reviews__slider-feedback.swiper {
 		max-width: 420px;
 		min-height: 361;
 		height: auto;
