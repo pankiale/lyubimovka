@@ -72,6 +72,17 @@
 	flex-direction: column;
 	padding: 0 27px;
 	gap: 59px;
+	position: relative;
+}
+
+.footer__copyright::before {
+	content: '';
+	position: absolute;
+	height: 1px;
+	background-color: #242424;
+	width: 100%;
+	top: 0;
+	left: 0;
 }
 
 .footer__privacy-policy {
@@ -308,6 +319,11 @@
 		gap: calc(35px + 27px);
 		flex-direction: row;
 		padding: 0;
+	}
+
+	.footer__copyright::before {
+		content: '';
+		height: 0;
 	}
 
 	.footer__info {
