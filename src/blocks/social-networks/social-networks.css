@@ -63,7 +63,6 @@
 	width: 20px;
 	height: 13px;
 	transform: translateY(-50%);
-	background: contain no-repeat;
 	transition: all 0.5s cubic-bezier(0.08, 0.82, 0.6, 1.02);
 }
 
@@ -150,7 +149,7 @@
 	}
 
 	.social-networks__image {
-		margin-bottom: 24.78px;
+		margin-bottom: 25px;
 	}
 }
 
