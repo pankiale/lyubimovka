@@ -93,6 +93,11 @@
 	flex-direction: column;
 }
 
+.footer__info img {
+	width: 27px;
+	height: 25px;
+}
+
 .footer__info-link {
 	text-decoration: none;
 	color: #242424;

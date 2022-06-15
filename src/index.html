@@ -11,7 +11,9 @@
 
 <body class="page">
 	<header class="header page__container">
-		<a href="#"><img src="./images/logos/heart-logo-small.svg" alt="лого" class="logo" /></a>
+		<a href="#">
+			<img src="./images/logos/heart-logo-small.svg" alt="лого" class="logo" />
+		</a>
 		<nav class="links">
 			<ul class="link-container">
 				<li><a href="#" class="link">Афиша</a></li>
@@ -75,14 +77,12 @@
 					Пронькин, Владимир Морозов, Светлана Маршанкина
 				</dd>
 			</dl>
-			<!-- <iframe src="" frameborder="0"></iframe> -->
 			<div class="performance__video">
 				<img src="./images/video-cover.jpg" alt="Обложка видео" class="performance__video-cover" />
 				<button type="button" class="performance__video-play"></button>
 				<iframe class="performance__iframe" src="https://www.youtube.com/embed/qUkeNlgz36Y"
 					allowfullscreen></iframe>
 			</div>
-
 			<div class="performance__text">
 				<p class="performance__paragraph">
 					Пьеса «Длань Господня» (Hand to God) — лауреат
@@ -144,7 +144,6 @@
 						</a>
 					</li>
 				</ul>
-
 				<p class="performance__card-subtitle">Санкт-Петербург</p>
 				<p class="performance__card-subtitle">2020</p>
 			</div>
@@ -154,30 +153,14 @@
 				Заголовок блока с&nbsp;фотографиями
 			</h2>
 			<ul class="photo-gallery">
-				<li>
-					<img class="photo-gallery__img" src="./images/gallery/gallery-1.jpg" alt="Выступление" />
-				</li>
-				<li>
-					<img class="photo-gallery__img" src="./images/gallery/gallery-2.jpg" alt="Выступление" />
-				</li>
-				<li>
-					<img class="photo-gallery__img" src="./images/gallery/gallery-3.jpg" alt="Выступление" />
-				</li>
-				<li>
-					<img class="photo-gallery__img" src="./images/gallery/gallery-4.jpg" alt="Выступление" />
-				</li>
-				<li>
-					<img class="photo-gallery__img" src="./images/gallery/gallery-5.jpg" alt="Зрительный зал" />
-				</li>
-				<li>
-					<img class="photo-gallery__img" src="./images/gallery/gallery-6.jpg" alt="Выступление" />
-				</li>
-				<li>
-					<img class="photo-gallery__img" src="./images/gallery/gallery-7.jpg" alt="Выступление" />
-				</li>
-				<li>
-					<img class="photo-gallery__img" src="./images/gallery/gallery-8.jpg" alt="Выступление" />
-				</li>
+				<li><img class="photo-gallery__img" src="./images/gallery/gallery-1.jpg" alt="Выступление" /></li>
+				<li><img class="photo-gallery__img" src="./images/gallery/gallery-2.jpg" alt="Выступление" /></li>
+				<li><img class="photo-gallery__img" src="./images/gallery/gallery-3.jpg" alt="Выступление" /></li>
+				<li><img class="photo-gallery__img" src="./images/gallery/gallery-4.jpg" alt="Выступление" /></li>
+				<li><img class="photo-gallery__img" src="./images/gallery/gallery-5.jpg" alt="Зрительный зал" /></li>
+				<li><img class="photo-gallery__img" src="./images/gallery/gallery-6.jpg" alt="Выступление" /></li>
+				<li><img class="photo-gallery__img" src="./images/gallery/gallery-7.jpg" alt="Выступление" /></li>
+				<li><img class="photo-gallery__img" src="./images/gallery/gallery-8.jpg" alt="Выступление" /></li>
 			</ul>
 		</section>
 		<section class="reviews reviews_type_critique page__container">
@@ -185,11 +168,11 @@
 				<h2 class="header-cardReview__header">Рецензии</h2>
 				<div class="header-cardReview__pagination"></div>
 				<div class="reviews_type_critique-btn-container">
-					<button class="reviews__slider-critique-button-prev"></button>
-					<button class="reviews__slider-critique-button-next"></button>
+					<button class="button-slider button-slider_type_left reviews__slider-critique-button-prev"></button>
+					<button
+						class="button-slider button-slider_type_right reviews__slider-critique-button-next"></button>
 				</div>
 			</div>
-
 			<div class="swiperReview">
 				<div class="swiper-wrapper">
 					<article class="card-review swiper-slide">
@@ -225,7 +208,6 @@
 							</button>
 						</a>
 					</article>
-
 					<article class="card-review swiper-slide">
 						<img class="card-review__logo" src="./images/logos/image26sobaka.svg" alt="логотип газеты" />
 						<p class="card-review__text">
@@ -249,7 +231,6 @@
 							</button>
 						</a>
 					</article>
-
 					<article class="card-review swiper-slide">
 						<img class="card-review__logo" src="./images/logos/image25TheNYTimes.svg"
 							alt="логотип газеты" />
@@ -283,7 +264,6 @@
 							</button>
 						</a>
 					</article>
-
 					<article class="card-review swiper-slide">
 						<img class="card-review__logo" src="./images/logos/image26sobaka.svg" alt="логотип газеты" />
 						<p class="card-review__text">
@@ -312,13 +292,14 @@
 		</section>
 		<section class="reviews reviews_type_feedback page__container">
 			<div class="reviews__slider-feedback-title-container">
-				<h2 class="reviews__slider-feedback-title section__title">
+				<h2 class="reviews__slider-feedback-title">
 					Отзывы зрителей
 				</h2>
 				<div class="reviews__slider-feedback-pagination"></div>
 				<div class="reviews__slider-feedback-btn-container">
-					<button class="reviews__slider-feedback-button-prev"></button>
-					<button class="reviews__slider-feedback-button-next"></button>
+					<button class="button-slider button-slider_type_left reviews__slider-feedback-button-prev"></button>
+					<button
+						class="button-slider button-slider_type_right reviews__slider-feedback-button-next"></button>
 				</div>
 			</div>
 			<div class="reviews__slider-feedback swiper">
@@ -398,12 +379,10 @@
 				</li>
 			</ul>
 			<div class="social-networks__title-container">
-				<div></div>
 				<h2 class="social-networks__title">
 					Рассказать <br />
 					о спектале в соцсетях
 				</h2>
-				<div></div>
 			</div>
 		</section>
 	</main>
@@ -522,36 +501,16 @@
 			<a href="#"><img src="./images/logos/heart-logo-small.svg" alt="лого" class="logo logo_place_menu" /></a>
 			<nav class="links links_place_menu">
 				<ul class="menu__link-container">
-					<li>
-						<a href="#" class="link link_place_menu">Главная</a>
-					</li>
-					<li>
-						<a href="#" class="link link_place_menu">Афиша</a>
-					</li>
-					<li>
-						<a href="#" class="link link_place_menu">Библиотека</a>
-					</li>
-					<li>
-						<a href="#" class="link link_place_menu">Проекты</a>
-					</li>
-					<li>
-						<a href="#" class="link link_place_menu">История</a>
-					</li>
-					<li>
-						<a href="#" class="link link_place_menu">Блог</a>
-					</li>
-					<li>
-						<a href="#" class="link link_place_menu">Новости</a>
-					</li>
-					<li>
-						<a href="#" class="link link_place_menu">О фестивале</a>
-					</li>
-					<li>
-						<a href="#" class="link link_place_menu">Контакты</a>
-					</li>
-					<li>
-						<a href="#" class="link link_place_menu">Для прессы</a>
-					</li>
+					<li><a href="#" class="link link_place_menu">Главная</a></li>
+					<li><a href="#" class="link link_place_menu">Афиша</a></li>
+					<li><a href="#" class="link link_place_menu">Библиотека</a></li>
+					<li><a href="#" class="link link_place_menu">Проекты</a></li>
+					<li><a href="#" class="link link_place_menu">История</a></li>
+					<li><a href="#" class="link link_place_menu">Блог</a></li>
+					<li><a href="#" class="link link_place_menu">Новости</a></li>
+					<li><a href="#" class="link link_place_menu">О фестивале</a></li>
+					<li><a href="#" class="link link_place_menu">Контакты</a></li>
+					<li><a href="#" class="link link_place_menu">Для прессы</a></li>
 				</ul>
 			</nav>
 			<nav class="menu__donation-container">
