@@ -1,4 +1,4 @@
-.swiper {
+.reviews__slider-feedback.swiper {
 	max-width: 1320px;
 	height: 361px;
 }
@@ -21,19 +21,19 @@
 
 
 @media screen and (max-width: 1320px) {
-	.swiper  {
-	max-width: 870px;
+	.reviews__slider-feedback.swiper {
+		max-width: 870px;
 	}
 }
 
 @media screen and (max-width: 930px) {
-	.swiper {
+	.reviews__slider-feedback.swiper {
 		max-width: 420px;
 		min-height: 361px;
 		height: auto;
 	}
 
-	.swiper-pagination-bullets.swiper-pagination-horizontal {
+	.reviews__slider-feedback-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
 		position: absolute;
 		top: 50px;
 		left: 29px;

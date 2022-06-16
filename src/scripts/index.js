@@ -51,6 +51,10 @@ const swiperFeedback = new Swiper(".swiper", {
         prevEl: ".reviews__slider-feedback-button-prev",
     },
 
+    speed: 800,
+    simulateTouch: true,
+    grabCursor: true,
+
     breakpoints: {
         930: {
             slidesPerView: 2,
@@ -61,7 +65,7 @@ const swiperFeedback = new Swiper(".swiper", {
         },
     },
 });
-console.log(swiperFeedback.pagination.el);
+
 const swiperReview = new Swiper(".swiperReview", {
     slidesPerView: "auto",
     spaceBetween: 30,
