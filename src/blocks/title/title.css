@@ -13,3 +13,24 @@
 	margin: 0;
 	padding-bottom: 40px;
 }
+
+@media (max-width: 1024px) {
+    .title {
+		padding-left: 150px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .title_place_photo {
+        padding-bottom: 22px;
+    }
+
+	.title {
+		font-size: 28px;
+		line-height: 32px;
+		max-width: 360px;
+		padding-left: 24px;
+	}
+}
+
