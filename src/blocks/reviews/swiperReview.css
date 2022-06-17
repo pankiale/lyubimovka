@@ -1,12 +1,3 @@
-.header-cardReview {
-	position: relative;
-	margin: 0 auto;
-	width: 718px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
 .header-cardReview__header {
 	margin: 0 0 40px 0;
 	padding: 0;
@@ -16,7 +7,7 @@
 	font-size: 40px;
 	line-height: 40px;
 	letter-spacing: -0.01em;
-	
+
 }
 
 .swiperReview {
@@ -30,15 +21,9 @@
 }
 
 .swiper-slide-prev.card-review {
-	opacity: 0;
+	opacity: 0.4;
 }
 
-.reviews_type_critique-btn-container{
+.reviews_type_critique-btn-container {
 	margin: 0
-}
-.header-cardReview__pagination{
-	display: flex;
-	gap: 8px;
-	position: absolute;
-	top: 20px;
 }

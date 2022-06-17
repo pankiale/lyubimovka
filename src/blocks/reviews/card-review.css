@@ -1,5 +1,4 @@
 .card-review {
-	margin: 0 auto 116px;
 	padding: 55px 88px 72px;
 	display: flex;
 	flex-direction: column;
@@ -7,8 +6,6 @@
 	justify-content: center;
 	background-color: white;
 	color: #242423;
-	width: 718px;
-	max-height: 782px;
 	box-sizing: border-box;
 }
 
@@ -67,4 +64,18 @@
 .card-review__button-image {
 	width: 25px;
 	height: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+	.card-review {
+		padding: 77px 26px 72px 26px;
+	}
+
+	.card-review__logo {
+		margin-bottom: 35px;
+	}
+
+	.card-review__text {
+		margin-top: 0;
+	}
 }
