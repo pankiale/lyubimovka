@@ -19,6 +19,11 @@
 	margin: 0;
 }
 
+.header-cardReview__pagination.swiper-pagination-bullets.swiper-pagination-horizontal{
+	left: 508px;
+	width: 82px;
+	bottom: 20px
+}
 
 @media screen and (max-width: 1320px) {
 	.reviews__slider-feedback.swiper {
