@@ -67,21 +67,33 @@ const swiperFeedback = new Swiper(".swiper", {
 });
 
 const swiperReview = new Swiper(".swiperReview", {
-    slidesPerView: "auto",
+    slidesPerView: 1,
     spaceBetween: 30,
     direction: "horizontal",
     loop: true,
 
     pagination: {
-        el: ".header-cardReview__pagination",
+        el: ".reviews__slider-critique-pagination",
         clickable: true,
     },
-    centeredSlides: true,
+    centeredSlides: false,
+    autoHeight: true,
 
     navigation: {
         nextEl: ".reviews__slider-critique-button-next",
         prevEl: ".reviews__slider-critique-button-prev",
     },
+
+    speed: 800,
+
+    breakpoints: {
+        1000: {
+            slidesPerView: 1.5,
+                    }
+
+    },
+
+
 });
 
 // ---------------------------------------------------- listeners
