@@ -32,20 +32,15 @@
 .card-review__url {
 	text-decoration: none;
 	margin: 40px auto 0 0;
-}
-
-.card-review__button {
-	padding: 0;
+	background-color: transparent;
 	width: 210px;
 	height: 32px;
-	background-color: transparent;
-	border: none;
-	border-left: 1px solid #242424;
-	border-bottom: 1px solid #242424;
 	display: flex;
 	flex-direction: row;
 	justify-content: start;
 	align-items: center;
+	border-left: 1px solid #242424;
+	border-bottom: 1px solid #242424;
 	font-family: "Formular", "Arial", sans-serif;
 	font-style: normal;
 	font-weight: 300;
